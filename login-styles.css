@@ -5,37 +5,24 @@ body{
 .container{
 
     display:flex;
-
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
     height: 100vh;
     width:  100vw;
 
     border: 5px solid greenyellow;
     box-sizing:border-box;
-
 }
 
 .login-card{
-    height: 150px;
-    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     border: 5px solid blue;
     box-sizing: border-box;
-}
-
-.media-query-magic{
-    display:none;
-    width:150px;
-    height: 150px;
-    border: 5px solid red;
-    box-sizing: border-box;
-
-
-}
-
-@media(700px <= width <= 1000px){
-    .media-query-magic
-}
-@media(min-width: 700px) and (max-width:1000px){
-
+    max-height:50%;
+    min-height: 300px;
 }
