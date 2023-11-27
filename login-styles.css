@@ -20,8 +20,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    box-shadow: 0px 0px 20px rgb(189, 185, 185);
     border: 5px solid blue;
+    border-radius: 10px;
     box-sizing: border-box;
     max-height:50%;
     min-height: 300px;
